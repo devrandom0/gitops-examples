@@ -9,7 +9,7 @@ spec:
     name:
   project:
   source:
-    repoURL:
+    repoURL: https://github.com/devrandom0/gitops-examples
     targetRevision: HEAD
     path: apps
   syncPolicy:
