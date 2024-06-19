@@ -5,9 +5,9 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    namespace:
-    name:
-  project:
+    namespace: argocd
+    name: in-cluster
+  project: parent-app
   source:
     repoURL: https://github.com/devrandom0/gitops-examples
     targetRevision: HEAD
